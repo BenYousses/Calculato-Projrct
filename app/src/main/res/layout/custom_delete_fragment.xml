@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/fragment_backround"
+    >
+
+    <LinearLayout
+        android:layout_width="267dp"
+        android:layout_height="185dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/fragment_backround"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_Titles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Delete All"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_Messages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Clear Hestory and memory ? "
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btn_positive_custom"
+            android:layout_width="103dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/clear_btn_backraound"
+            android:drawableRight="@drawable/delete"
+            android:paddingEnd="5dp"
+            android:text="Clear" />
+
+        <Button
+            android:id="@+id/btn_negetive_custom"
+            android:layout_width="103dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/cancel_btn_backround"
+            android:drawableRight="@drawable/cancel_icon"
+            android:paddingEnd="5dp"
+            android:text="cancel" />
+    </LinearLayout>
+</LinearLayout>

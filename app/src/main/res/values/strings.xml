@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="num_0">0</string>
+    <string name="num_1">1</string>
+    <string name="num_2">2</string>
+    <string name="num_3">3</string>
+    <string name="num_4">4</string>
+    <string name="num_5">5</string>
+    <string name="num_6">6</string>
+    <string name="num_7">7</string>
+    <string name="num_8">8</string>
+    <string name="num_9">9</string>
+    <string name="ac">ac</string>
+    <string name="del">del</string>
+    <string name="off">off</string>
+    <string name="on">on</string>
+    <string name="equal">=</string>
+    <string name="plus">+</string>
+    <string name="min">-</string>
+    <string name="div">*</string>
+    <string name="dot">.</string>
+    <string name="multuply">/</string>
+    <string name="menu">Archives</string>
+    <string name="NoArchive">No Archive</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
